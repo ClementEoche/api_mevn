@@ -1,10 +1,11 @@
 {
-  "name": "node-express-mongodb",
+  "name": "express-mongodb",
   "version": "1.0.0",
   "description": "Node.js Restful CRUD API with Node.js, Express and MongoDB",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "nodejs",
@@ -16,9 +17,20 @@
   "author": "bezkoder",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "^5.8.10"
-  }
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.19"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bezkoder/node-express-mongodb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bezkoder/node-express-mongodb/issues"
+  },
+  "homepage": "https://github.com/bezkoder/node-express-mongodb#readme"
 }
